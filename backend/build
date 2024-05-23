@@ -1,0 +1,4 @@
+cd apps/dwm
+make clean install
+cd ../st
+make clean install
