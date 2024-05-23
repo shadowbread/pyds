@@ -7,8 +7,8 @@ import pywal
 
 class Builder:
     def __init__(self, src):
-        self.make_with_template(src, 'source/dwm/')
-        self.make_with_template(src, 'source/st/')
+        self.make_with_template(src, 'apps/dwm/')
+        self.make_with_template(src, 'apps/st/')
 
     def get_colors(self, src):
         return pywal.colors.get(pywal.image.get(src))['colors']
